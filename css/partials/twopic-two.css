@@ -1,0 +1,25 @@
+.twopic-two{
+
+    width: 100%;
+    height: 260px;
+    .twopic-two-center{
+        width: 85%;
+        height: inherit;
+        margin: 0 auto;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+     
+      
+        .twopic-two-item{
+            width: 49.5%;
+            height: inherit;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
+    }
+}

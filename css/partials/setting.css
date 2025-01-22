@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+/* fonts*/
+@font-face {
+    font-family: iranyekan;
+    src: url(../../fonts/IRANYekanWeb.woff);
+    src: url(../../fonts/IRANYekanWeb.woff2);
+    src: url(../../fonts/IRANYekanWeb.eot);
+    src: url(../../fonts/IRANYekanWeb.ttf);
+}
+@font-face{
+  font-family: numberpersian;
+  src: url(../../fonts/B-NAZANIN.TTF);
+}
+
+/*variables*/
+:root{
+  --font--number: numberpersian;
+  --font--family:iranyekan;
+  --borderradius:8px;
+  --width-center:80%
+}
+  .wrapper{
+    width: 100%;
+  }
+  .swiper-button-next, .swiper-rtl .swiper-button-prev{
+  width: 40px;
+  height: 40px;
+  background-color: whitesmoke;
+  border: 1px solid lightgrey;
+  border-radius: 50%;
+
+
+}
+.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+  font-size: 14px;
+  color: #2b2b2b;
+  font-weight: bold;
+
+}
+.swiper-button-prev.swiper-button-disabled, .swiper-button-next.swiper-button-disabled{
+  opacity: 0;
+}

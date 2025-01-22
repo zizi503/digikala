@@ -1,0 +1,105 @@
+.supermarket-index {
+  width:100%;
+  height: 140px;
+  margin: 10px 0;
+  display: flex;
+  align-items: center;
+  .supermarket-index-center{
+    width: 85%;
+    height: 110px;
+    background-color: #edefee;
+    margin:0 auto;
+    padding: 0px 20px;
+    border-radius: 15px;
+    display: flex;
+    column-gap: 80px;
+    .supermarket-index-center-right {
+      width: 55%;
+      height: inherit;
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      column-gap: 20px;
+      .supermarket-index-center-right-item {
+        width: 110px;
+        height: 28px;
+        background-color: #019a4a;
+        border-radius: 50px;
+        p {
+          font-family: var(--font--family);
+          font-size: small;
+          font-weight: bold;
+          color: white;
+          text-align: center;
+          margin: 5px auto;
+        }
+        span{
+          font-family: var(--font--number);
+          font-weight: bolder;
+          font-size:15px ;
+        }
+      }
+    }
+    .supermarket-index-center-left {
+      width: 55%;
+      height: inherit;
+      display: flex;
+      align-items: center;
+      column-gap:45px;
+      .supermarket-index-center-left-item {
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        border-radius: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 5px;
+
+        p {
+          font-family: var(--font--family);
+          font-size: 13px;
+          font-weight: bold;
+          text-align: center;
+          color: #27965a;
+        }
+        img {
+          width: 20px;
+          height: 20px;
+        }
+      }
+      .supermarket-index-center-left-item-image {
+        width: 78px;
+        height: 78px;
+        background: white;
+        border-radius: 50%;
+      
+
+        img {
+          width: 55px;
+          height: 55px;
+          display: block;
+          margin: 11px 11px;}}
+          .redoff{
+            width: 36px;
+            height: 20px;
+            border-radius: 10px;
+            background-color: #d03131;
+          margin: 0px -120px -60px 0px;
+            z-index: 2;
+           
+            
+            p{  font-family: var(--font--number);
+                color: white;
+                font-weight:bolder;
+                font-size: 14px;
+                width: inherit;
+                text-align: center;
+            }
+          }
+        }
+        
+      }
+    }
+  
+

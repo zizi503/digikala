@@ -1,0 +1,55 @@
+.classify {
+  width: 100%;
+  height: 475px;
+  display: flex;
+  justify-content: center;
+
+  .classify-center {
+    width: 70%;
+    height: 360px;
+
+    .classify-name {
+      width: 100%;
+      height: 75px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding-top: 10px;
+
+      h2 {
+        font-size: 22px;
+        font-family: var(--font--family);
+        font-weight: normal;
+      }
+    }
+    .classify-center-bottom {
+      width: 100%;
+      height: calc(100%-75px);
+
+      .classify-product-first {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-flow: row wrap;
+        column-gap: 15px;
+        justify-content: space-around;
+        padding-top: 20px;
+        .bottom-first-item {
+          width: auto;
+          height: 100%;
+
+          img {
+            width: 100px;
+            height: 100px;
+          }
+          h6 {
+            font-family: var(--font--family);
+            text-align: center;
+            font-size: 12px;
+            margin-top: 20px;
+          }
+        }
+      }
+    }
+  }
+}
